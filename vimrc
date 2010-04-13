@@ -7,7 +7,7 @@
   scriptencoding utf-8
 
   " I like pretty colors
-  colorscheme ir_black
+  " colorscheme ir_black
 
   " These two enable syntax highlighting
   set nocompatible          " We're running Vim, not Vi!
@@ -52,7 +52,7 @@
   "set list listchars=tab:»·,trail:·
 
   " don't make it look like there are line breaks where there aren't:
-  "set nowrap
+  set nowrap
 
   " assume the /g flag on :s substitutions to replace all matches in a line:
   set gdefault
@@ -89,7 +89,7 @@
   let g:rails_statusline=0
 
   " quit NERDTree after openning a file
-  let NERDTreeQuitOnOpen=1
+  " let NERDTreeQuitOnOpen=1
   " colored NERD Tree
   let NERDChristmasTree = 1
   let NERDTreeHighlightCursorline = 1
